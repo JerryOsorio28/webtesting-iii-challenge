@@ -11,5 +11,5 @@ describe ('<Dashboard />', () => {
         const tree = renderer.create(<Dashboard />).toJSON();
 
         expect(true).toMatchSnapshot();
-    })
-})
+    });
+});
