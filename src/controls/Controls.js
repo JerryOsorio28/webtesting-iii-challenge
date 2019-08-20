@@ -2,6 +2,7 @@ import React from 'react';
 
 const Controls = props => {
   const { locked, closed, toggleLocked, toggleClosed } = props;
+  console.log(props)
 
   return (
     <div className="controls panel">
